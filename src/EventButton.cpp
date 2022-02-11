@@ -147,6 +147,8 @@ unsigned int EventButton::userId() { return _userId; }
 
 unsigned int EventButton::userState() { return _userState; }
 
+bool EventButton::isPressed() { return buttonState() == LOW; }
+
 bool EventButton::enabled() { return _enabled; }
 
 void EventButton::enable(bool e) {

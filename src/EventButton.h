@@ -207,6 +207,11 @@ class EventButton {
     unsigned int userState();
 
     /**
+     * Returns true if pressed
+     */
+    bool isPressed();
+
+    /**
      * Returns true if enabled
      */
     bool enabled();
