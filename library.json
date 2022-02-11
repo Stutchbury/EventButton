@@ -1,0 +1,27 @@
+{
+  "name": "EventButton",
+  "version": "1.0.1",
+  "description": "A comprehensive event library for efficient, maintainable working with buttons. Multi-click events (1-n). Long press repeat. Many other events can be handled.",
+  "keywords": "button, momentary, event, debounce",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/Stutchbury/EventButton.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Philip Fletcher",
+      "email": "philip.fletcher@stutchbury.com",
+      "url": "https://stutchbury.com",
+      "maintainer": true
+    }
+  ],
+  "license": "GPL-2.0",
+  "homepage": "https://github.com/Stutchbury/EventButton/",
+  "dependencies": {
+    "thomasfredericks/Bounce2": "2.6.0"
+  },
+  "frameworks": "Arduino",
+  "platforms": "*"
+}
