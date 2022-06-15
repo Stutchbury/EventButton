@@ -58,7 +58,7 @@ void EventButton::update() {
     onUpdate();
     //fire long press callbacks
     if (haveButton && longPressEnabled && LOW == bounce->read()) {
-      if (bounce->duration() > (longClickDuration * (longPressCounter + 1))) {
+      if (bounce->currentDuration() > (longClickDuration * (longPressCounter + 1))) {
         lastEventMs = millis();
         if ((repeatLongPress || longPressCounter == 0) && long_press_cb != NULL) {
           long_press_cb(*this);
@@ -67,7 +67,7 @@ void EventButton::update() {
       }
     }
     //fire button click callbacks
-    if (haveButton && !clickFired && _buttonState == HIGH && bounce->duration() > multiClickInterval) {
+    if (haveButton && !clickFired && _buttonState == HIGH && bounce->currentDuration() > multiClickInterval) {
       clickFired = true;
       if (bounce->previousDuration() > longClickDuration) {
         clickCounter = 0;
@@ -135,7 +135,7 @@ bool EventButton::buttonState() { return bounce->read(); }
 
 unsigned char EventButton::clickCount() { return prevClickCount; }
 
-unsigned long EventButton::currentDuration() { return bounce->duration(); }
+unsigned long EventButton::currentDuration() { return bounce->currentDuration(); }
 
 unsigned long EventButton::previousDuration() { return bounce->previousDuration(); }
 

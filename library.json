@@ -1,6 +1,6 @@
 {
   "name": "EventButton",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A comprehensive event library for efficient, maintainable working with buttons. Multi-click events (1-n). Long press repeat. Many other events can be handled.",
   "keywords": "button, momentary, event, debounce",
   "repository":
