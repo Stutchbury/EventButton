@@ -20,7 +20,7 @@
   "license": "GPL-2.0",
   "homepage": "https://github.com/Stutchbury/EventButton/",
   "dependencies": {
-    "thomasfredericks/Bounce2": "2.60.0"
+    "thomasfredericks/Bounce2": "^2.71"
   },
   "frameworks": "Arduino",
   "platforms": "*"
