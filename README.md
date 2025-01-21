@@ -1,6 +1,6 @@
 # EventButton
 
-> **The new version of EventButton can now be found in the [InputEvents library]().**
+> **The new version of EventButton can now be found in the [InputEvents library](https://github.com/Stutchbury/InputEvents).**
 
 A comprehensive event library for efficient, maintainable working with buttons. 
 
