@@ -1,5 +1,7 @@
 # EventButton
 
+> **The new version of EventButton can now be found in the [InputEvents library]().**
+
 A comprehensive event library for efficient, maintainable working with buttons. 
 
 * Press and release events
